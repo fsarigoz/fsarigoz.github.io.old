@@ -22,3 +22,4 @@ You can reproduce this setup on your own computer by following the steps below:
 * Edit pelicanconf.py to the lines that activate the `pelican-ipynb` plugin.
 * Run `pelican content`.
 * Switch to the `output` directory and run `python -m pelican.server`.
+* Visit `localhost:8000` in your browser to preview the blog.
