@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Fatih Sarigoz</title><link href="https://fatihsarigoz.com/" rel="alternate"></link><link href="https://fatihsarigoz.com/feeds/all.atom.xml" rel="self"></link><id>https://fatihsarigoz.com/</id><updated>2016-12-20T15:00:00-08:00</updated><entry><title>Impact of Scaling on Machine Learning Regression Algorithms</title><link href="https://fatihsarigoz.com/scaling-ml.html" rel="alternate"></link><published>2016-12-20T15:00:00-08:00</published><updated>2016-12-20T15:00:00-08:00</updated><author><name>Fatih Sarigoz</name></author><id>tag:fatihsarigoz.com,2016-12-20:scaling-ml.html</id><summary type="html">&lt;style type="text/css"&gt;/*!
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Fatih Sarigoz</title><link href="http://fatihsarigoz.com/" rel="alternate"></link><link href="http://fatihsarigoz.com/feeds/all.atom.xml" rel="self"></link><id>http://fatihsarigoz.com/</id><updated>2016-12-20T15:00:00-08:00</updated><entry><title>Impact of Scaling on Machine Learning Regression Algorithms</title><link href="http://fatihsarigoz.com/scaling-ml.html" rel="alternate"></link><published>2016-12-20T15:00:00-08:00</published><updated>2016-12-20T15:00:00-08:00</updated><author><name>Fatih Sarigoz</name></author><id>tag:fatihsarigoz.com,2016-12-20:scaling-ml.html</id><summary type="html">&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
@@ -3332,7 +3332,7 @@ gg==
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 &lt;/script&gt;
-</summary><category term="python machine_learning scaling regression"></category></entry><entry><title>Working with the Auto MPG Data Set</title><link href="https://fatihsarigoz.com/autompg-data.html" rel="alternate"></link><published>2016-12-19T18:30:00-08:00</published><updated>2016-12-19T18:30:00-08:00</updated><author><name>Fatih Sarigoz</name></author><id>tag:fatihsarigoz.com,2016-12-19:autompg-data.html</id><summary type="html">&lt;style type="text/css"&gt;/*!
+</summary><category term="python machine_learning scaling regression"></category></entry><entry><title>Working with the Auto MPG Data Set</title><link href="http://fatihsarigoz.com/autompg-data.html" rel="alternate"></link><published>2016-12-19T18:30:00-08:00</published><updated>2016-12-19T18:30:00-08:00</updated><author><name>Fatih Sarigoz</name></author><id>tag:fatihsarigoz.com,2016-12-19:autompg-data.html</id><summary type="html">&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
@@ -4847,7 +4847,7 @@ dtype: object&lt;/pre&gt;
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 &lt;/script&gt;
-</summary><category term="python machine_learning auto mpg dataset"></category></entry><entry><title>First Post</title><link href="https://fatihsarigoz.com/first-post.html" rel="alternate"></link><published>2016-12-06T18:00:00-08:00</published><updated>2016-12-06T18:00:00-08:00</updated><author><name>Fatih Sarigoz</name></author><id>tag:fatihsarigoz.com,2016-12-06:first-post.html</id><summary type="html">&lt;style type="text/css"&gt;/*!
+</summary><category term="python machine_learning auto mpg dataset"></category></entry><entry><title>First Post</title><link href="http://fatihsarigoz.com/first-post.html" rel="alternate"></link><published>2016-12-06T18:00:00-08:00</published><updated>2016-12-06T18:00:00-08:00</updated><author><name>Fatih Sarigoz</name></author><id>tag:fatihsarigoz.com,2016-12-06:first-post.html</id><summary type="html">&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
