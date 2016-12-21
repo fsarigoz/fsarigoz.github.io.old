@@ -1,99 +1,42 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic' rel='stylesheet' type='text/css'>
+        <meta charset="utf-8" />
+        <title>Working with the Auto MPG Data Set</title>
+        <link rel="stylesheet" href="http://fatihsarigoz.com/theme/css/main.css" />
+        <link href="http://fatihsarigoz.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Fatih Sarigoz Atom Feed" />
 
-    <link rel="stylesheet" type="text/css" href="http://fatihsarigoz.com/theme/stylesheet/style.min.css">
-
-  <link rel="stylesheet" type="text/css" href="http://fatihsarigoz.com/theme/pygments/default.min.css">
-  <link rel="stylesheet" type="text/css" href="http://fatihsarigoz.com/theme/font-awesome/css/font-awesome.min.css">
-
-
-    <link href="http://fatihsarigoz.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Fatih Sarigoz Atom">
-
-
-
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="HandheldFriendly" content="True" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="robots" content="" />
-
-
-<meta name="author" content="Fatih Sarigoz" />
-<meta name="description" content="Working with the Auto MPG Data Set¶In this post we will look into the Auto MPG data set and clean it so that it is ready for further use. This data set shows the mpg of a group of car models produced in the 1970s and the 1980s along with some characteristic information associated with each model. More information about the data set can be found here" />
-<meta name="keywords" content="python machine_learning auto mpg dataset">
-<meta property="og:site_name" content="Fatih Sarigoz"/>
-<meta property="og:title" content="Working with the Auto MPG Data Set"/>
-<meta property="og:description" content="Working with the Auto MPG Data Set¶In this post we will look into the Auto MPG data set and clean it so that it is ready for further use. This data set shows the mpg of a group of car models produced in the 1970s and the 1980s along with some characteristic information associated with each model. More information about the data set can be found here"/>
-<meta property="og:locale" content="en_US"/>
-<meta property="og:url" content="http://fatihsarigoz.com/autompg-data.html"/>
-<meta property="og:type" content="article"/>
-<meta property="article:published_time" content="2016-12-19 18:30:00-08:00"/>
-<meta property="article:modified_time" content=""/>
-<meta property="article:author" content="http://fatihsarigoz.com/author/fatih-sarigoz.html">
-<meta property="article:section" content="posts"/>
-<meta property="article:tag" content="python machine_learning auto mpg dataset"/>
-<meta property="og:image" content="">
-
-  <title>Fatih Sarigoz &ndash; Working with the Auto MPG Data Set</title>
-
+        <!--[if IE]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
 </head>
-<body>
-  <aside>
-    <div>
-      <a href="http://fatihsarigoz.com">
-        <img src="http://fatihsarigoz.com/theme/img/profile.png" alt="" title="">
-      </a>
-      <h1><a href="http://fatihsarigoz.com"></a></h1>
 
-<p>Data Science Blog</p>
-      <nav>
-        <ul class="list">
-
-          <li><a href="http://getpelican.com/" target="_blank">Pelican</a></li>
-          <li><a href="http://python.org/" target="_blank">Python.org</a></li>
-          <li><a href="http://jinja.pocoo.org/" target="_blank">Jinja2</a></li>
-          <li><a href="#" target="_blank">You can modify those links in your config file</a></li>
-        </ul>
-      </nav>
-
-      <ul class="social">
-        <li><a class="sc-twitter" href="https://twitter.com/fatihsarigoz" target="_blank"><i class="fa fa-twitter"></i></a></li>
-        <li><a class="sc-linkedin" href="http://www.linkedin.com/in/fatihsarigoz" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-        <li><a class="sc-github" href="https://github.com/fsarigoz" target="_blank"><i class="fa fa-github"></i></a></li>
-      </ul>
-    </div>
-
-
-  </aside>
-  <main>
-
-    <nav>
-      <a href="http://fatihsarigoz.com">    Home
+<body id="index" class="home">
+<a href="http://github.com/fsarigoz">
+<img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" />
 </a>
+        <header id="banner" class="body">
+                <h1><a href="http://fatihsarigoz.com/">Fatih Sarigoz  <strong>Data Science Blog</strong></a></h1>
+                <nav><ul>
+                    <li><a href="/archives.html">Archives</a></li>
+                    <li class="active"><a href="http://fatihsarigoz.com/category/posts.html">posts</a></li>
+                </ul>
+                </nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="http://fatihsarigoz.com/autompg-data.html" rel="bookmark"
+           title="Permalink to Working with the Auto MPG Data Set">Working with the Auto MPG Data Set</a></h1>
+<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="@fatihsarigoz">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+    </header>
 
-      <a href="/archives.html">Archives</a>
-
-      <a href="http://fatihsarigoz.com/feeds/all.atom.xml">    Atom
-</a>
-
-    </nav>
-
-<article class="single">
-  <header>
-    <h1 id="autompg-data">Working with the Auto MPG Data Set</h1>
-    <p>
-          Posted on Mon 19 December 2016 in <a href="http://fatihsarigoz.com/category/posts.html">posts</a>
-
-
-    </p>
-  </header>
-
-
-  <div>
-    <style type="text/css">/*!
+    <div class="entry-content">
+<footer class="post-info">
+        <span>Mon 19 December 2016</span>
+<span>| tags: <a href="http://fatihsarigoz.com/tag/python-machine_learning-auto-mpg-dataset.html">python machine_learning auto mpg dataset</a></span>
+</footer><!-- /.post-info -->      <style type="text/css">/*!
 *
 * IPython notebook
 *
@@ -1609,37 +1552,35 @@ dtype: object</pre>
 }
 </script>
 
-  </div>
-  <div class="tag-cloud">
-    <p>
-      <a href="http://fatihsarigoz.com/tag/python-machine_learning-auto-mpg-dataset.html">python machine_learning auto mpg dataset</a>
-    </p>
-  </div>
+    </div><!-- /.entry-content -->
 
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>blogroll</h2>
+                        <ul>
+                            <li><a href="http://getpelican.com/">Pelican</a></li>
+                            <li><a href="http://python.org/">Python.org</a></li>
+                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                            <li><a href="#">You can modify those links in your config file</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="http://fatihsarigoz.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
 
+                            <li><a href="https://twitter.com/fatihsarigoz">twitter</a></li>
+                            <li><a href="http://www.linkedin.com/in/fatihsarigoz">linkedin</a></li>
+                            <li><a href="https://github.com/fsarigoz">github</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
 
+        <footer id="contentinfo" class="body">
+                <p>Powered by <a href="http://getpelican.com/">Pelican</a>. Theme <a href="https://github.com/blueicefield/pelican-blueidea/">blueidea</a>, inspired by the default theme.</p>
+        </footer><!-- /#contentinfo -->
 
-</article>
-
-    <footer>
-<p>&copy; Fatih Sarigoz </p>
-<p>    Powered by <a href="http://getpelican.com" target="_blank">Pelican</a> - <a href="https://github.com/alexandrevicenzi/flex" target="_blank">Flex</a> theme by <a href="http://alexandrevicenzi.com" target="_blank">Alexandre Vicenzi</a>
-</p>    </footer>
-  </main>
-
-
-
-
-
-<script type="application/ld+json">
-{
-  "@context" : "http://schema.org",
-  "@type" : "Blog",
-  "name": " Fatih Sarigoz ",
-  "url" : "http://fatihsarigoz.com",
-  "image": "",
-  "description": ""
-}
-</script>
 </body>
 </html>
