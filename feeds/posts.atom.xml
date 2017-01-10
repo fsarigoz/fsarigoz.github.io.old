@@ -14210,7 +14210,7 @@ h6:hover .anchor-link {
 &lt;li&gt;Bagging algorithms&lt;/li&gt;
 &lt;li&gt;Boosting algorithms&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;For this project we will use the &lt;a href="https://archive.ics.uci.edu/ml/datasets/Auto+MPG"&gt;&lt;code&gt;Auto MPG&lt;/code&gt;&lt;/a&gt; data set. Please follow the instructions in the post &lt;a href="./auto-mpg"&gt;&lt;code&gt;Working with the Auto MPG Data Set&lt;/code&gt;&lt;/a&gt; to get yourself familiar with the dataset, prepare the data for analysis and generate the &lt;code&gt;auto-mpg.csv&lt;/code&gt; that will be used in this project.&lt;/p&gt;
+&lt;p&gt;For this project we will use the &lt;a href="https://archive.ics.uci.edu/ml/datasets/Auto+MPG"&gt;&lt;code&gt;Auto MPG&lt;/code&gt;&lt;/a&gt; data set. Please follow the instructions in the post &lt;a href="./autompg-data.html"&gt;&lt;code&gt;Working with the Auto MPG Data Set&lt;/code&gt;&lt;/a&gt; to get yourself familiar with the dataset, prepare the data for analysis and generate the &lt;code&gt;auto-mpg.csv&lt;/code&gt; that will be used in this project.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
